@@ -1,0 +1,22 @@
+# Coin-toss game
+
+A simple Qt C++ application that demonstrates coin toss. When the user clicks a button, the application randomly selects either a "heads" or "tails" image and displays it in a separate window. The window automatically closes after 1 second.
+
+## Dependencies
+
+- Qt 5 or later
+
+## Installation
+
+- Clone or download the repository.
+- Open the project in Qt Creator.
+
+## Code Structure
+
+- `mainwindow.cpp`: Contains the logic after the "Toss Coin" button is clicked. A random number(0 or 1) is generated and the corresponding "Heads" or "Tails" image is loaded. The image window closes after 1 second.
+- `mainwindow.h`: Contains the declaration of the main window class.
+- `mainwindow.ui`: UI file containing the "Toss Coin" button.
+- 'images/' : Image files "heads.jpeg and "tails.jpeg" can be used as a reference. 
+Note: If the images fail to load, provide the absolute path of the image in the file system.
+
+
